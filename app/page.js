@@ -20,6 +20,7 @@ export default function AlgorithmicArtGenerator() {
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
       setDarkMode(true);
       document.documentElement.classList.add('dark');
+      console.log('Dark mode enabled:', document.documentElement.classList.contains('dark'));
     }
   }, []);
   

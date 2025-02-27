@@ -21,7 +21,7 @@ export default function ControlPanel({
   handleParamChange
 }) {
   return (
-    <div className="md:w-1/3 bg-gray-50 dark:bg-gray-800 p-4 border-l border-gray-200 dark:border-gray-700 transition-colors duration-300">
+    <div className="md:w-1/3 bg-gray-50 dark:bg-gray-900 p-4 border-l border-gray-200 dark:border-gray-700 transition-colors duration-300">
       <div className="space-y-6">
         <AlgorithmSelector 
           algorithm={algorithm} 
